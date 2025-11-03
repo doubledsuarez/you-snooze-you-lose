@@ -1,0 +1,96 @@
+{
+  "_resourceType": "scene",
+  "id": "ad2d1b3f-22a0-4fdd-be55-bfeaa0ba3aca",
+  "_index": 2,
+  "name": "Room 2",
+  "backgroundId": "dac213ac-e4a5-433f-88df-23f2f5e6e921",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 694.3938223938225,
+  "y": 160.03088803088804,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "e39d030f-9d79-4bce-9b46-ee3f28219d9c"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 1,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "d4dec7e1-629a-48b1-b070-7a1c721669c9",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "e40df4fe-1f55-423b-ab3d-c2e282a92ee1"
+          }
+        ]
+      },
+      "id": "7ae8ebec-8b47-4402-9289-3f23d7f09740"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a",
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "4e8b3fe8-0fa4-4c20-9c7f-6ffd41dde611",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": 1
+            },
+            "id": "9686f19c-a68f-4182-b35e-527d57ac5b27"
+          }
+        ]
+      },
+      "id": "5669a289-8ae8-417a-99fa-0c6d41282fc3"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false,
+  "labelColor": "orange"
+}

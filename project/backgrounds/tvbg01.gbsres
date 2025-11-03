@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "dac213ac-e4a5-433f-88df-23f2f5e6e921",
+  "name": "tvbg01",
+  "symbol": "bg_tvbg01",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "tvbg01.png",
+  "tileColors": ""
+}

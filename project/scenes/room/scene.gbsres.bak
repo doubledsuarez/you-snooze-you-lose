@@ -1,0 +1,46 @@
+{
+  "_resourceType": "scene",
+  "id": "4e8b3fe8-0fa4-4c20-9c7f-6ffd41dde611",
+  "_index": 1,
+  "name": "Room",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 480,
+  "y": 160,
+  "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 3,
+        "frames": 30
+      },
+      "id": "f50bcaa5-281b-4826-84ec-1edecd17cf41"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "c9220b57-33b4-4694-b22b-64c275d74046"
+      },
+      "id": "56fc6442-8489-40ee-b475-f818d072bded"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "6113bfe5-882c-4bdf-972b-c32ce5b238b0"
+      },
+      "id": "ab0e0070-4a17-4960-b9dd-5669f0497648"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "orange"
+}

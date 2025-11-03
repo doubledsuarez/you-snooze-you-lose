@@ -1,0 +1,97 @@
+{
+  "_resourceType": "scene",
+  "id": "d4dec7e1-629a-48b1-b070-7a1c721669c9",
+  "_index": 3,
+  "name": "Room 3",
+  "backgroundId": "0f54e84e-f018-4f8d-8c9e-0c543ee5615f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 480,
+  "y": 408,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "d068ef5a-9be1-4abf-b223-cc04bd10229a"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 1,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": false
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9240c61f-70bd-4a77-b767-8fe430e12aae",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "8a66ad6c-aebe-47ac-bd13-8f5e804d84c2"
+          }
+        ]
+      },
+      "id": "d23fb2f7-f126-4c99-a08f-1cf0428b3852"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a",
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "4e8b3fe8-0fa4-4c20-9c7f-6ffd41dde611",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": 1
+            },
+            "id": "4e2c3fc4-1130-4c64-975f-e6ec93cb5868"
+          }
+        ]
+      },
+      "id": "6d87d8b7-369d-4311-b099-7c7acca17e41"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

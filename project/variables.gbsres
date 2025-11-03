@@ -1,0 +1,23 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "ad2d1b3f-22a0-4fdd-be55-bfeaa0ba3aca__L0",
+      "name": "playerSleep",
+      "symbol": "var_playersleep_0",
+      "flags": {
+        "flag1": "Flag 1"
+      }
+    },
+    {
+      "id": "4e8b3fe8-0fa4-4c20-9c7f-6ffd41dde611__L0",
+      "name": "randomSleepTime",
+      "symbol": "var_randomsleeptime"
+    },
+    {
+      "id": "0",
+      "name": "sleepTimer",
+      "symbol": "var_sleeptimer"
+    }
+  ]
+}

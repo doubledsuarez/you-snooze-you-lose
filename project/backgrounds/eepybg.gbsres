@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "5878a6a5-1d95-4d1d-af14-89b3177a36f4",
+  "name": "eepybg",
+  "symbol": "bg_eepybg",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "eepybg.png",
+  "tileColors": ""
+}

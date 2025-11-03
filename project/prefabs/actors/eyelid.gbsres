@@ -1,0 +1,19 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "dc467f12-7c16-40d7-b9db-92a50b9adc17",
+  "name": "Eyelid",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "cb510642-e1e8-445a-a515-5ae38b74cfa2",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

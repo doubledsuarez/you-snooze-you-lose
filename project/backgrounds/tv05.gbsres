@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "bbead468-5ff2-498d-b269-bf259ee33143",
+  "name": "tv05",
+  "symbol": "bg_tv05",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "tv05.png",
+  "tileColors": ""
+}
